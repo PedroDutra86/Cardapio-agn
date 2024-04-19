@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles/output.css" />
+    
+    <title>AGN Point Beer</title>
+</head>
+<body>
+    
+<!-- HEADER -->
+<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+        <img
+            src="./assets/Group 1.png"
+            alt="logo agn"
+            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+        />
+        <h1 class="text-4xl mt-4 mb-2 font-bold text-white">AGN Point Beer</h1>
+        
+        <span class="text-white font-medium">Estrada União e Indústria 14725, Petrópolis - RJ</span>
+
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+            <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+        </div>
+
+    </div>
+</header>
+<!-- FIM DO HEADER -->
+
+<h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Espetinhos
+</h2>
+
+<!-- ÍNICIO MENU -->
+<div id="menu">
+    
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer smash" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Carne</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="espeto-carne"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+
+            </div>
+        
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Frango</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="espeto-frango"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Kafta</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="espeto-kafta"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Coração</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="espeto-coracao"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Linguiça Mineira</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="espeto-linguica"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2">
+            <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div>
+                <p class="font-bold">Pão de Alho da Casa</p>
+                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="pao-de-aolho"
+                    data-price="13.00"
+                >
+                    <p class="font-bold text-lg">R$ 13,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+        
+        
+
+
+    </main>
+
+</div>
+
+<!-- FINAL MENU -->
+
+</body>
+</html>
