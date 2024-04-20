@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" 
+    rel="stylesheet" />
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
@@ -35,19 +40,23 @@
 <!-- FIM DO HEADER -->
 
 <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
-    Espetinhos
+    Conheça Nosso Cardápio
 </h2>
+
+<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+    <h2 class="font-bold text-3xl">Espetinhos</h2>
+</div>
 
 <!-- ÍNICIO MENU -->
 <div id="menu">
     
     <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer smash" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Carne</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                 
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="espeto-carne"
@@ -65,11 +74,11 @@
         <!-- FIM PRODUTO ITEM -->
 
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Frango</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                     
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="espeto-frango"
@@ -87,11 +96,11 @@
         <!-- FIM PRODUTO ITEM -->
 
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Kafta</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                     
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="espeto-kafta"
@@ -109,11 +118,11 @@
         <!-- FIM PRODUTO ITEM -->
 
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Coração</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                     
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="espeto-coracao"
@@ -131,11 +140,11 @@
         <!-- FIM PRODUTO ITEM -->
 
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Linguiça Mineira</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                     
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="espeto-linguica"
@@ -153,11 +162,11 @@
         <!-- FIM PRODUTO ITEM -->
 
         <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
             <img src="./assets/Carne.jpg" alt="hamburguer duplo" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
-            <div>
+            <div class="w-full">
                 <p class="font-bold">Pão de Alho da Casa</p>
-                <p class="text-sm">Delicioso espeto de carne com aproximadamente 120g de contra-filé</p>
+                <p class="text-sm"><br><br></p>
                     
                 <div class="flex items-center gap-2 justify-between mt-3"
                     data-name="pao-de-aolho"
@@ -172,16 +181,221 @@
             </div>
             
         </div>
-        <!-- FIM PRODUTO ITEM -->
-        
-        
+        <!-- FIM PRODUTO ITEM --> 
 
 
     </main>
 
+    <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+        <h2 class="font-bold text-3xl">Porções</h2>
+    </div>
+
+    <!-- Grid Porcoes -->
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+    
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Sambiquira" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Sambiquira</p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="porcao-sambiquira"
+                    data-price="20.00"
+                >
+                    <p class="font-bold text-lg">R$ 20,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM --> 
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Dadinho de Tapioca" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Dadinho de Tapioca</p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="porcao-dadinho-de-tapioca"
+                    data-price="25.00"
+                >
+                    <p class="font-bold text-lg">R$ 25,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM --> 
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Mandioquinha" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Mandioquinha</p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="porcao-mandioquinha"
+                    data-price="23.00"
+                >
+                    <p class="font-bold text-lg">R$ 23,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+        
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Mandioquinha com Linguiça" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Mandioquinha <span class="text-sm text-red-600 italic">c/ Linguiça</span></p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="porcao-mandioquinha-com-linguica"
+                    data-price="32.00"
+                >
+                    <p class="font-bold text-lg">R$ 32,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM --> 
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Batata Frita" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Batata Frita</p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="batata-frita"
+                    data-price="24.00"
+                >
+                    <p class="font-bold text-lg">R$ 24,50</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+        
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Batata Frita com Linguiça" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Batata Frita <span class="text-sm text-red-600 italic">c/ Linguiça</span></p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="batata-frita-com-linguica"
+                    data-price="33.00"
+                >
+                    <p class="font-bold text-lg">R$ 33,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM --> 
+
+        <!-- PRODUTO ITEM -->
+        <div class="flex gap-2 w-full">
+            <img src="./assets/Carne.jpg" alt="Rabinho de Camarão" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="w-full">
+                <p class="font-bold">Rabinho de Camarão</p>
+                <p><br><br></p>
+                    
+                <div class="flex items-center gap-2 justify-between mt-3"
+                    data-name="rabinho-de-camarao"
+                    data-price="35.00"
+                >
+                    <p class="font-bold text-lg">R$ 35,00</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn">
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+    
+            </div>
+            
+        </div>
+        <!-- FIM PRODUTO ITEM --> 
+
+
+        </div>
+
+        <!-- Fim grid Porcoes -->
 </div>
 
 <!-- FINAL MENU -->
+
+<!-- Modal Cart -->
+
+<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+        
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Endereço</p>
+        <input type="text" placeholder="Digite aqui seu endereço" id="adress" class="w-full border-2 p-1 rounded my-1">
+
+        <p class="font-bold mt-4">Observação</p>
+        <input type="text" placeholder="Alguma Observação?" id="obsevacao" class="w-full border-2 p-1 rounded my-1">
+
+        <p class="text-red-500 hidden" id="adress-warn">Digite seu endereço completo!</p>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-model-btn" class="bg-red-400 rounded px-4 py-1 text-white">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Fim Modal Cart -->
+
+<!-- Botao card footer -->
+<footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+        class="flex items-center gap-2 text-white font-bold"
+        id="cart-btn"
+    >
+        (<span id="cart-count">0</span>)
+        Veja meu carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+</footer>
+<!-- Fim botao card footer -->
 
 </body>
 </html>
