@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,1149 +9,869 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" 
-    rel="stylesheet" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
-    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./styles/output.css" />
-    
-    <title>AGN Point Beer</title>
+
+    <title>Emporio 040</title>
 </head>
+
 <body>
-    
-<!-- HEADER -->
-<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
-    <div class="w-full h-full flex flex-col justify-center items-center">
-        <img
-            src="./assets/Group 1.png"
-            alt="logo agn"
-            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
-        />
-        <h1 class="text-4xl mt-4 mb-2 font-bold text-white">AGN Point Beer</h1>
-        
-        <span class="text-white font-medium">Estrada União e Indústria 14725, Petrópolis - RJ</span>
 
-        <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-            <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
-        </div>
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./assets/Imagem do WhatsApp de 2024-10-25 à(s) 19.36.27_1c3543a3.jpg" alt="logo agn" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Empório 040</h1>
 
-    </div>
-</header>
-<!-- FIM DO HEADER -->
+            <span class="text-white font-medium">Estrada do Contorno - Cascata do Imbui</span>
 
-<h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
-    Conheça Nosso Cardápio
-</h2>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Espetinhos</h2>
-</div>
-
-<!-- ÍNICIO MENU -->
-<div id="menu">
-    
-    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Espeto de Carne" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Carne</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Espeto de Carne"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Qua á Dom - 11:30 as 23:30</span>
             </div>
 
         </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
+    </header>
+    <!-- FIM DO HEADER -->
 
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Espeto de Frango" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Frango</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Espeto de Frango"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Espeto de Kafta" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Kafta</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Kafta"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Espeto de Coração" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Coração</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Espeto de Coração"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Linguiça Mineira" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Linguiça Mineira</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Linguiça Mineira"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Pão de Alho" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Pão de Alho da Casa</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Pão de Alho da Casa"
-                    data-price="13.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
-
-
-    </main>
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça Nosso Cardápio
+    </h2>
 
     <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-        <h2 class="font-bold text-3xl">Porções</h2>
+        <h2 class="font-bold text-3xl">Burger</h2>
     </div>
 
-    <!-- Grid Porcoes -->
+    <!-- ÍNICIO MENU -->
+    <div id="menu">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-    
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Sambiquira" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Sambiquira</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 20,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Sambiquira"
-                    data-price="20.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/hamburger/IMG_2774.JPG" alt="Burger 040" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Burger 040</p>
+                    <p class="text-sm">Pao brioche super macio, maionese artesanal de ervas, alho poro, nossso blend bovino artesanal de 160g, queijo montanhes gratinado, e chips de bacon</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 29,90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger 040" data-price="29.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
             </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Dadinho de Tapioca" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Dadinho de Tapioca</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 25,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Dadinho de Tapioca"
-                    data-price="25.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Mandioquinha" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Mandioquinha</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 23,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Mandioquinha"
-                    data-price="23.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-        
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Mandioquinha com Linguiça" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Mandioquinha <span class="text-sm text-red-500 italic">C/ Linguiça</span></p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 32,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Mandioquinha com Linguiça"
-                    data-price="32.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Batata Frita" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Batata Frita</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 24,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Batata Frita"
-                    data-price="24.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-        
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Batata Frita com Linguiça" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Batata Frita <span class="text-sm text-red-500 italic">C/ Linguiça</span></p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 33,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Batata Frita com Linguiça"
-                    data-price="33.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Porção de Rabinho de Camarão" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Rabinho de Camarão</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 35,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Porção de Rabinho de Camarão"
-                    data-price="35.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-
-        </div>
-        
-        </div>
-
-        
-        <!-- FIM PRODUTO ITEM --> 
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Massas</h2>
-</div>
-
-<!-- Grid massas -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Talharim" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Talharim</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 29,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Talharim"
-                data-price="29.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Nhoque" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Nhoque</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 32,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Nhoque"
-                data-price="32.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Ravioli de Carne" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Ravioli de Carne</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 35,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Ravioli de Carne"
-                data-price="35.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM -->
- 
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Trio AGN</h2>
-</div>
-
-<!-- Grid TRIO AGN -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Trio AGN" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">2 Espetos de sua escolha + 1 Pão de alho gourmet</p>
-            <p class="text-sm"><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 32,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Trio AGN"
-                data-price="32.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-
-    </div>
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Combo Família</h2>
-</div>
-
-<!-- Grid Combo -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Combo Família" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">7 Espetos de sua escolha + 3 Pães de alho da casa</p>
-            <p class="text-sm"><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 110,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Combo Família"
-                data-price="110.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Sanduíche de Pão de alho recheado</h2>
-</div>
-
-<!-- Grid Sanduiche -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Sanduiche Carne" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Carne</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 26,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Sanduíche Carne"
-                data-price="26.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Sanduiche Frango" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Frango</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 26,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Sanduíche Frango"
-                    data-price="26.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-    
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
+            <!-- FIM PRODUTO ITEM -->
 
             <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Sanduiche Kafta" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Kafta</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 26,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Sanduíche Kafta"
-                data-price="26.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
+            <div class="flex gap-2">
+                <img src="./assets/hamburger/IMG_2774.JPG" alt="040 Chicken Cheddar" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
+                <div class="w-full">
+                    <p class="font-bold">040 Chicken Cheddar</p>
+                    <p class="text-sm">Pao australiano cheddar cremoso, alho poro, blend artesanal de frango com 160g, um pouco mais de cheddar cremoso, chips de bacon e nossa cebola caramelizada artesanal</p>
 
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Sanduiche Coracao" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Coração</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 26,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Sanduíche Coração"
-                    data-price="26.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 24,90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="040 Chicken Cheddar" data-price="24.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
             </div>
-    
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
+            <!-- FIM PRODUTO ITEM -->
 
             <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Sanduiche Linguiça Mineira" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Linguiça Mineira</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 26,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Sanduíche Linguiça Mineira"
-                data-price="26.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
+            <div class="flex gap-2">
+                <img src="./assets/hamburger/IMG_2774.JPG" alt="Mustard Burger" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
+                <div class="w-full">
+                    <p class="font-bold">Mustard Burger</p>
+                    <p class="text-sm">Pao australiano, maionese artesanal de alho, alho poro, blend bovino de 160g, mussarela gratinada, chips de bacon e molho honey mustard</p>
 
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/Carne.jpg" 
-                alt="Sanduiche Camarão" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Camarão</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 26,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Sanduíche Camarão"
-                    data-price="26.00"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 27,90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Mustard Burger" data-price="27.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
             </div>
-    
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM --> 
+            <!-- FIM PRODUTO ITEM -->
 
-        <p class="text-red-500">Adicional de Batata - R$ 7,00</p>
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Caldos</h2>
-</div>
-
-<!-- Grid Caldos -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/Carne.jpg" 
-            alt="Caldos" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Caldo</p>
-            <p class="text-sm text-red-500">Consultar os sabores disponíveis <br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 26,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Sanduíche Carne"
-                data-price="26.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Cervejas</h2>
-</div>
-
-<!-- Grid Cervejas -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-1.png" 
-            alt="Cervejas" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Cervejas</p>
-            <p class="text-sm text-red-500">Consultar disponibilidade <br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg"></p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Cervejas"
-                data-price="00.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Vinhos</h2>
-</div>
-
-<!-- Grid Vinhos -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-1.png" 
-            alt="Cervejas" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Vinhos</p>
-            <p class="text-sm text-red-500">Consultar disponibilidade <br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg"></p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Vinhos"
-                data-price="00.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-</div>
-
-<div class="mx-auto max-w-7xl px-2 my-2 mb-6">
-    <h2 class="font-bold text-3xl">Bebidas</h2>
-</div>
-
-<!-- Grid Bebidas -->
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-1.png" 
-            alt="Agua sem gas" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Água S/Gás</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 4,00</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Água S/Gás"
-                data-price="4.00"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
-        </div>
-
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
-
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/refri-1.png" 
-                alt="Agua com gas" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-            
-            <div class="w-full">
-                <p class="font-bold">Água C/Gás</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 4,50</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Água C/Gás"
-                    data-price="4.50"
-                >
-                    <i class="fa fa-cart-plus text-lg text-white"></i>
-                </button>
-            </div>
-    
-        </div>
-        
-        </div>
-        <!-- FIM PRODUTO ITEM -->
-        
             <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-2.png" 
-            alt="Agua tonica" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Água Tônica</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 6,50</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Água Tônica"
-                data-price="6.50"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
+            <div class="flex gap-2">
+                <img src="./assets/hamburger/IMG_2774.JPG" alt="Gorgonzola Burger" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Gorgonzola Burger</p>
+                    <p class="text-sm">Pao australiano, creme de gorgonzola com vinho branco, alho poro, blend bovino de 160g, bacon e geleia de pimentao vermelho</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 29,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Gorgonzola Burger" data-price="29.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Linguiça Mineira" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Double Cheddar</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 13,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Linguiça Mineira" data-price="13.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Pão de Alho" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Pão de Alho da Casa</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 13,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Pão de Alho da Casa" data-price="13.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Porções</h2>
         </div>
 
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
+        <!-- Grid Porcoes -->
 
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-2.png" 
-            alt="Refrigerante" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Refrigerante lata</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 6,50</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Refrigerante lata"
-                data-price="6.50"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Sambiquira" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Sambiquira</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 20,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Sambiquira" data-price="20.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Dadinho de Tapioca" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Dadinho de Tapioca</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 25,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Dadinho de Tapioca" data-price="25.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Mandioquinha" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Mandioquinha</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 23,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Mandioquinha" data-price="23.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Mandioquinha com Linguiça" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Mandioquinha <span class="text-sm text-red-500 italic">C/ Linguiça</span></p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Mandioquinha com Linguiça" data-price="32.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Batata Frita" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Batata Frita</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 24,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Batata Frita" data-price="24.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Batata Frita com Linguiça" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Batata Frita <span class="text-sm text-red-500 italic">C/ Linguiça</span></p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 33,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Batata Frita com Linguiça" data-price="33.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Porção de Rabinho de Camarão" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Rabinho de Camarão</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Porção de Rabinho de Camarão" data-price="35.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FIM PRODUTO ITEM -->
+
         </div>
 
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM -->
-
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-        <img 
-            src="./assets/refri-1.png" 
-            alt="Guaravita" 
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-        />
-        
-        <div class="w-full">
-            <p class="font-bold">Guaravita</p>
-            <p class="text-sm"><br><br></p>
-            
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">R$ 3,50</p>
-                <button
-                class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Guaravita"
-                data-price="3.50"
-            >
-                <i class="fa fa-cart-plus text-lg text-white"></i>
-            </button>
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Massas</h2>
         </div>
 
-    </div>
-    
-    </div>
-    <!-- FIM PRODUTO ITEM --> 
+        <!-- Grid massas -->
 
-    <!-- PRODUTO ITEM -->
-    <div class="flex gap-2">
-    <img 
-        src="./assets/refri-1.png" 
-        alt="Suco natural" 
-        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-    />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
 
-    <div class="w-full">
-        <p class="font-bold">Suco natural</p>
-        <p class="text-sm"><br><br></p>
-        
-        <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">R$ 10,00</p>
-            <button
-            class="bg-gray-900 px-5 rounded add-to-cart-btn"
-            data-name="Suco natural"
-            data-price="10.00"
-        >
-            <i class="fa fa-cart-plus text-lg text-white"></i>
-        </button>
-    </div>
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Talharim" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
-    </div>
+                <div class="w-full">
+                    <p class="font-bold">Talharim</p>
+                    <p class="text-sm"><br><br></p>
 
-    </div>
-    <!-- FIM PRODUTO ITEM -->
-    
-        <!-- PRODUTO ITEM -->
-        <div class="flex gap-2">
-            <img 
-                src="./assets/refri-2.png" 
-                alt="Mate da casa" 
-                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
-            />
-        
-            <div class="w-full">
-                <p class="font-bold">Mate da casa C/limão</p>
-                <p class="text-sm"><br><br></p>
-                
-                <div class="flex items-center gap-2 justify-between mt-3">
-                    <p class="font-bold text-lg">R$ 13,00</p>
-                    <button
-                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                    data-name="Mate da casa"
-                    data-price="13.00"
-                >
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 29,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Talharim" data-price="29.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Nhoque" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Nhoque</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Nhoque" data-price="32.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Ravioli de Carne" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Ravioli de Carne</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Ravioli de Carne" data-price="35.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Trio AGN</h2>
+        </div>
+
+        <!-- Grid TRIO AGN -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Trio AGN" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">2 Espetos de sua escolha + 1 Pão de alho gourmet</p>
+                    <p class="text-sm"><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Trio AGN" data-price="32.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Combo Família</h2>
+        </div>
+
+        <!-- Grid Combo -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Combo Família" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">7 Espetos de sua escolha + 3 Pães de alho da casa</p>
+                    <p class="text-sm"><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 110,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Combo Família" data-price="110.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Sanduíche de Pão de alho recheado</h2>
+        </div>
+
+        <!-- Grid Sanduiche -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Carne" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Carne</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Carne" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Frango" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Frango</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Frango" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Kafta" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Kafta</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Kafta" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Coracao" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Coração</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Coração" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Linguiça Mineira" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Linguiça Mineira</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Linguiça Mineira" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Sanduiche Camarão" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Camarão</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Camarão" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <p class="text-red-500">Adicional de Batata - R$ 7,00</p>
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Caldos</h2>
+        </div>
+
+        <!-- Grid Caldos -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/Carne.jpg" alt="Caldos" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Caldo</p>
+                    <p class="text-sm text-red-500">Consultar os sabores disponíveis <br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sanduíche Carne" data-price="26.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Cervejas</h2>
+        </div>
+
+        <!-- Grid Cervejas -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Cervejas" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Cervejas</p>
+                    <p class="text-sm text-red-500">Consultar disponibilidade <br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg"></p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Cervejas" data-price="00.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Vinhos</h2>
+        </div>
+
+        <!-- Grid Vinhos -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Cervejas" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Vinhos</p>
+                    <p class="text-sm text-red-500">Consultar disponibilidade <br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg"></p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Vinhos" data-price="00.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+        </div>
+
+        <div class="mx-auto max-w-7xl px-2 my-2 mb-6">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+        </div>
+
+        <!-- Grid Bebidas -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Agua sem gas" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Água S/Gás</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 4,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Água S/Gás" data-price="4.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Agua com gas" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Água C/Gás</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 4,50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Água C/Gás" data-price="4.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-2.png" alt="Agua tonica" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Água Tônica</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6,50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Água Tônica" data-price="6.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-2.png" alt="Refrigerante" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Refrigerante lata</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6,50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Refrigerante lata" data-price="6.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Guaravita" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Guaravita</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 3,50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guaravita" data-price="3.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-1.png" alt="Suco natural" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Suco natural</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 10,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Suco natural" data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+            <!-- PRODUTO ITEM -->
+            <div class="flex gap-2">
+                <img src="./assets/refri-2.png" alt="Mate da casa" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <p class="font-bold">Mate da casa C/limão</p>
+                    <p class="text-sm"><br><br></p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 13,00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Mate da casa" data-price="13.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FIM PRODUTO ITEM -->
+
+
+            <!-- FINAL MENU -->
+
+
+
+
+
+
+            <!-- Modal Cart -->
+
+            <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
+                <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                    <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+                    <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+                    <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+                    <p class="font-bold mt-4">Observação</p>
+                    <input type="text" placeholder="Alguma Observação?" id="obsevacao" class="w-full border-2 p-1 rounded my-1">
+
+                    <p class="font-bold mt-4">Endereço</p>
+                    <input type="text" placeholder="Digite aqui seu endereço" id="adress" class="w-full border-2 p-1 rounded my-1">
+
+                    <p class="text-red-500 hidden" id="adress-warn">Digite seu endereço completo!</p>
+
+                    <div class="flex items-center justify-between mt-5 w-full">
+                        <button id="close-model-btn" class="bg-red-400 rounded px-4 py-1 text-white">Fechar</button>
+                        <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Fim Modal Cart -->
+
+            <!-- Botao card footer -->
+            <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+                <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+                    (<span id="cart-count">0</span>)
+                    Veja meu carrinho
                     <i class="fa fa-cart-plus text-lg text-white"></i>
                 </button>
-            </div>
-        
-            </div>
-        
-            </div>
-            <!-- FIM PRODUTO ITEM --> 
+            </footer>
+            <!-- Fim botao card footer -->
 
-
-<!-- FINAL MENU -->
-
-
-
-
-    
-
-<!-- Modal Cart -->
-
-<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
-    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
-        <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
-        
-        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
-
-        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
-
-        <p class="font-bold mt-4">Observação</p>
-        <input type="text" placeholder="Alguma Observação?" id="obsevacao" class="w-full border-2 p-1 rounded my-1">
-
-        <p class="font-bold mt-4">Endereço</p>
-        <input type="text" placeholder="Digite aqui seu endereço" id="adress" class="w-full border-2 p-1 rounded my-1">
-
-        <p class="text-red-500 hidden" id="adress-warn">Digite seu endereço completo!</p>
-
-        <div class="flex items-center justify-between mt-5 w-full">
-            <button id="close-model-btn" class="bg-red-400 rounded px-4 py-1 text-white">Fechar</button>
-            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
-        </div>
-
-    </div>
-
-</div>
-
-
-
-<!-- Fim Modal Cart -->
-
-<!-- Botao card footer -->
-<footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
-    <button 
-        class="flex items-center gap-2 text-white font-bold"
-        id="cart-btn"
-    >
-        (<span id="cart-count">0</span>)
-        Veja meu carrinho
-        <i class="fa fa-cart-plus text-lg text-white"></i>
-    </button>
-</footer>
-<!-- Fim botao card footer -->
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="script.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+            <script src="script.js"></script>
 </body>
+
 </html>
